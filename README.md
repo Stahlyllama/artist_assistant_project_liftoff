@@ -1,13 +1,13 @@
-**# Overview**
+** # Overview **
 This is my LaunchCode LiftOff Project Assignment Repository. This is an application that I am working on developing currently.
 
 My project will be an all-in-one place to enter receipts and purchases along with the supplier/vendor details.  It will be an online database that users login to in order to gain access to their stored information.  There is also a pricing calculator that is available for use by the artists/retailer for completed works and figuring out the formula for pricing pieces of art and will also allow tracking those pieces.  
 The project was motivated by me, being an Artist/Retailer I need an assistant or at least a convenient all in one place to enter important information that pertains to my work. I have very little to no time at all to waste and having information entered and stored on any device that I can retrieve later and filter really makes it easier to do and to use. I am working on developing that one stop application that you can get into a routine with and that you’ll utilize more than you know.
 
-**## Features**
+__ ## Features __
 * As an Artist/Retailer you will go to my site and create a login with a unique user Id and password. You are then asked to create a profile and include photos of your work and some additional information.
 
-**Now for the application features.**
+** Now for the application features **
 
 * Receipts and Purchase Database: After every business purchase you make, enter the details from the receipt and add a photo of the receipt for later reference.
 
