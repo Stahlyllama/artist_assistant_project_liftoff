@@ -1,13 +1,16 @@
 package org.launchcode.artist_assistant_project_liftoff.user;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+@Controller
 public class UserController {
     @RequestMapping(value = "")
     @ResponseBody
     public String index() {
-        return "Hello Spring";
+        String firstName = "";
+        return ("Hello" + firstName);
     }
 }
 //import org.springframework.beans.factory.annotation.Autowired;

@@ -7,9 +7,10 @@ import javax.persistence.*;
 public class User{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     private String email;
+    private String password;
     private String firstName;
     private String lastName;
 
@@ -19,6 +20,9 @@ public class User{
     public void setEmail(String email){
         this.email = email;
     }
+
+    public String getPassword() { return password; }
+    public void setPassword(String password) { this.password = password; }
 
     public String getFirstName() {
         return firstName;
