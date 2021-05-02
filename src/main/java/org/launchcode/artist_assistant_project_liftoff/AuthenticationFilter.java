@@ -1,8 +1,8 @@
 package org.launchcode.artist_assistant_project_liftoff;
 
 import org.launchcode.artist_assistant_project_liftoff.controllers.AuthenticationController;
-import org.launchcode.artist_assistant_project_liftoff.user.UserRepository;
-import org.launchcode.artist_assistant_project_liftoff.user.User;
+import org.launchcode.artist_assistant_project_liftoff.model.repository.UserRepository;
+import org.launchcode.artist_assistant_project_liftoff.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 

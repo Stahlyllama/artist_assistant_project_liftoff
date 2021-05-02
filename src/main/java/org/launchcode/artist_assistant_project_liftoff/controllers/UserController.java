@@ -1,4 +1,4 @@
-package org.launchcode.artist_assistant_project_liftoff.user;
+package org.launchcode.artist_assistant_project_liftoff.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,8 +9,13 @@ public class UserController {
     @RequestMapping(value = "")
     @ResponseBody
     public String index() {
-        String firstName = "";
-        return ("Hello" + firstName);
+        String firstName = "Bob";
+//        String lastName = "Smith";
+//        String email = "BOB@gmail.com";
+//        String password = "stink";
+//
+//        return ("Please REGISTER or returning customers, please LOGIN: Well Hello there" + " " + firstName + " " +lastName);
+    return ("Hello"+ " " + firstName);
     }
 }
 //import org.springframework.beans.factory.annotation.Autowired;
